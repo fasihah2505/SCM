@@ -29,3 +29,5 @@ Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Home'), 0
 
 Mobile.closeApplication()
 
+Mobile.closeApplication()
+
