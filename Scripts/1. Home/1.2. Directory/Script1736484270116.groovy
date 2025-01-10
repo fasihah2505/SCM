@@ -17,5 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.acceptAlert()
+Mobile.startApplication('C:\\Users\\TUF\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (7)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Directory (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (8)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Home'), 0)
+
+Mobile.closeApplication()
+
+Mobile.closeApplication()
 
