@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Dirctory</name>
+   <name>1.4 Promotions</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>15aa535b-caa9-4b11-b5b6-8933cf474da4</testCaseGuid>
+   <testCaseGuid>50b078e3-db4d-49af-91d8-406e1037e7ce</testCaseGuid>
 </TestCaseEntity>
