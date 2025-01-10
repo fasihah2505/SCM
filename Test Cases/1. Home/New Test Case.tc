@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1.6 Social Media</name>
+   <name>New Test Case</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>99067643-c212-4648-86e5-96bc63270d46</testCaseGuid>
+   <testCaseGuid>777ff2a3-febe-4cef-80a3-c4cb7043eca0</testCaseGuid>
 </TestCaseEntity>

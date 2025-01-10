@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1.4 Promotions</name>
+   <name>1.5 Social Media</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>50b078e3-db4d-49af-91d8-406e1037e7ce</testCaseGuid>
+   <testCaseGuid>99067643-c212-4648-86e5-96bc63270d46</testCaseGuid>
 </TestCaseEntity>
