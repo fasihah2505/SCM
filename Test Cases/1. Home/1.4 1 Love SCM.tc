@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1.5 Social Media</name>
+   <name>1.4 1 Love SCM</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>08763e31-3c69-4101-b907-3b3f79462c4f</testCaseGuid>
+   <testCaseGuid>a5e395cf-0c20-4b29-930e-bba52e732ff6</testCaseGuid>
 </TestCaseEntity>
