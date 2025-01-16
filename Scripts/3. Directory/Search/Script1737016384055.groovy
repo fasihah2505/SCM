@@ -17,15 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\TUF\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
-
-Mobile.tap(findTestObject('Object Repository/SCM/New Folder_test/android.widget.ImageView'), 0)
-
-Mobile.pressBack()
-
-Mobile.tap(findTestObject('Object Repository/SCM/New Folder_test/android.widget.Button - NO'), 0)
-
-Mobile.tap(findTestObject('Object Repository/SCM/New Folder_test/android.widget.ImageView'), 0)
-
-Mobile.closeApplication()
-
