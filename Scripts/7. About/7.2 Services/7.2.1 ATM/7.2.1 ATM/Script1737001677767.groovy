@@ -16,8 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+// Dynamically generate the file path using the project directory
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
+<<<<<<< HEAD
 Mobile.startApplication('C:\\Users\\User\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
+=======
+String projectDir = RunConfiguration.getProjectDir()
+
+String apkFilePath = projectDir + '/Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk'
+
+// Launch the application using the relative path
+Mobile.startApplication(apkFilePath, true)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (22)'), 0)
+>>>>>>> branch 'main' of https://github.com/fasihah2505/SCM.git
 
 Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (14)'), 0)
 
