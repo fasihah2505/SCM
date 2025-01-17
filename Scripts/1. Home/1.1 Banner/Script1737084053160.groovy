@@ -17,20 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
+Mobile.startApplication('C:\\Users\\User\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
 
-'Clcik Banner'
-Mobile.tap(findTestObject('Object Repository/SCM/Home_Object/android.widget.ImageView'), 0)
+Mobile.delay(10)
 
-'content banner'
-Mobile.tap(findTestObject('Object Repository/SCM/Home_Object/android.view.2ndPic'), 0)
+'Get Device Height and Store in device_height variable'
+device_Height = Mobile.getDeviceHeight()
 
-'Close banner'
-Mobile.tap(findTestObject('Object Repository/SCM/Home_Object/android.widget.ImageView'), 0)
+'Get Device Width and Store in device_Width variable'
+device_Width = Mobile.getDeviceWidth()
 
-Mobile.swipe(50, 0, -50, 0)
+'Storing the startX,endX values by dividing device height by 2 Because Y coordinates are constant'
+int startY = device_Height / 2
 
-Mobile.swipe(50, 0, -50, 0)
+'Here endY and startY values are equal for vertical Swiping for that assigning startY value to endY'
+int endY = startY
 
-Mobile.swipe(50, 0, -50, 0)
+'Storing the startX value'
+int startX = device_Width * 0.30
+
+'Storing the endX value'
+int endX = device_Width * 0.70
+
+'Here Y constant for Swipe Vertical Left to Right'
+Mobile.swipe(startX, startY, endX, endY)
+
+'Here Y constant for Swipe Vertical Left to Right'
+Mobile.swipe(startX, startY, endX, endY)
+
+'Here Y constant for Swipe Vertical Left to Right'
+Mobile.swipe(startX, startY, endX, endY)
+
+Mobile.delay(3)
+
+'open content\r\n'
+Mobile.tap(findTestObject('Object Repository/SCM/Home_Object/android.widget.FrameLayout (1)'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.delay(3)
 
