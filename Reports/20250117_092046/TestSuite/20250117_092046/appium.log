@@ -1,0 +1,117 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.13.1
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m50788[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:50788/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.1.65:50788/wd/hub
+	http://127.0.0.1:50788/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@3.9.7 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m8 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\TUF\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"R9JN70X3DWJ","appium:deviceName":"samsung SM-M115F (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"12","appium:property":"","appium:property_1":"","appium:property_2":"","appium:systemPort":50787,"appium:udid":"R9JN70X3DWJ","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\TUF\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"R9JN70X3DWJ","appium:deviceName":"samsung SM-M115F (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"12","appium:property":"","app...[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\User\.appium\node_modules\appium-uiautomator2-driver
+[38;5;161m[AppiumDriver@d0d7][0m Appium v2.13.1 creating new AndroidUiautomator2Driver (v3.9.7) session
+[38;5;161m[AppiumDriver@d0d7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;161m[AppiumDriver@d0d7][0m Appium's BaseDriver version is 9.13.1
+[38;5;161m[AppiumDriver@d0d7][0m AndroidUiautomator2Driver's BaseDriver version is 9.13.1
+[38;5;-142m[AndroidUiautomator2Driver@be3c][0m The following provided capabilities were not recognized by this driver:
+[38;5;-142m[AndroidUiautomator2Driver@be3c][0m   deviceId
+[38;5;-142m[AndroidUiautomator2Driver@be3c][0m   property
+[38;5;-142m[AndroidUiautomator2Driver@be3c][0m   property_1
+[38;5;-142m[AndroidUiautomator2Driver@be3c][0m   property_2
+[38;5;110m[72642eec][0m[38;5;-142m[AndroidUiautomator2Driver@be3c][0m Session created with session id: 72642eec-b930-45a8-bfc5-4189b37dfca5
+[38;5;110m[72642eec][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\User\.katalon\tools\android_sdk' (newest first):
+[38;5;110m[72642eec][0m[38;5;229m[ADB][0m     C:\Users\User\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;110m[72642eec][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\User\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;110m[72642eec][0m[38;5;-142m[AndroidUiautomator2Driver@be3c][0m Retrieving device list
+[38;5;110m[72642eec][0m[38;5;-142m[AndroidUiautomator2Driver@be3c][0m Using device: R9JN70X3DWJ
+[38;5;110m[72642eec][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\User\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;110m[72642eec][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;110m[72642eec][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;110m[72642eec][0m[38;5;-142m[AndroidUiautomator2Driver@be3c][0m Restoring hidden api policy to the device default configuration
+[38;5;110m[72642eec][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m665 ms - 840[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\TUF\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"R9JN70X3DWJ","appium:deviceName":"samsung SM-M115F (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"12","appium:property":"","appium:property_1":"","appium:property_2":"","appium:systemPort":50846,"appium:udid":"R9JN70X3DWJ","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\TUF\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"R9JN70X3DWJ","appium:deviceName":"samsung SM-M115F (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"12","appium:property":"","app...[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\User\.appium\node_modules\appium-uiautomator2-driver
+[38;5;161m[AppiumDriver@d0d7][0m Appium v2.13.1 creating new AndroidUiautomator2Driver (v3.9.7) session
+[38;5;161m[AppiumDriver@d0d7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;161m[AppiumDriver@d0d7][0m Appium's BaseDriver version is 9.13.1
+[38;5;161m[AppiumDriver@d0d7][0m AndroidUiautomator2Driver's BaseDriver version is 9.13.1
+[38;5;-72m[AndroidUiautomator2Driver@74c7][0m The following provided capabilities were not recognized by this driver:
+[38;5;-72m[AndroidUiautomator2Driver@74c7][0m   deviceId
+[38;5;-72m[AndroidUiautomator2Driver@74c7][0m   property
+[38;5;-72m[AndroidUiautomator2Driver@74c7][0m   property_1
+[38;5;-72m[AndroidUiautomator2Driver@74c7][0m   property_2
+[38;5;137m[d3946809][0m[38;5;-72m[AndroidUiautomator2Driver@74c7][0m Session created with session id: d3946809-25f1-4e9c-8ae9-e430e998da60
+[38;5;137m[d3946809][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\User\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;137m[d3946809][0m[38;5;-72m[AndroidUiautomator2Driver@74c7][0m Retrieving device list
+[38;5;137m[d3946809][0m[38;5;-72m[AndroidUiautomator2Driver@74c7][0m Using device: R9JN70X3DWJ
+[38;5;137m[d3946809][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\User\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;137m[d3946809][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;137m[d3946809][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;137m[d3946809][0m[38;5;-72m[AndroidUiautomator2Driver@74c7][0m Restoring hidden api policy to the device default configuration
+[38;5;137m[d3946809][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m491 ms - 840[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\TUF\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"R9JN70X3DWJ","appium:deviceName":"samsung SM-M115F (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"12","appium:property":"","appium:property_1":"","appium:property_2":"","appium:systemPort":50890,"appium:udid":"R9JN70X3DWJ","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\TUF\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"R9JN70X3DWJ","appium:deviceName":"samsung SM-M115F (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"12","appium:property":"","app...[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\User\.appium\node_modules\appium-uiautomator2-driver
+[38;5;161m[AppiumDriver@d0d7][0m Appium v2.13.1 creating new AndroidUiautomator2Driver (v3.9.7) session
+[38;5;161m[AppiumDriver@d0d7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;161m[AppiumDriver@d0d7][0m Appium's BaseDriver version is 9.13.1
+[38;5;161m[AppiumDriver@d0d7][0m AndroidUiautomator2Driver's BaseDriver version is 9.13.1
+[38;5;-190m[AndroidUiautomator2Driver@c5fa][0m The following provided capabilities were not recognized by this driver:
+[38;5;-190m[AndroidUiautomator2Driver@c5fa][0m   deviceId
+[38;5;-190m[AndroidUiautomator2Driver@c5fa][0m   property
+[38;5;-190m[AndroidUiautomator2Driver@c5fa][0m   property_1
+[38;5;-190m[AndroidUiautomator2Driver@c5fa][0m   property_2
+[38;5;152m[5e642080][0m[38;5;-190m[AndroidUiautomator2Driver@c5fa][0m Session created with session id: 5e642080-8b15-4431-af53-9bd33fb387b3
+[38;5;152m[5e642080][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\User\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;152m[5e642080][0m[38;5;-190m[AndroidUiautomator2Driver@c5fa][0m Retrieving device list
+[38;5;152m[5e642080][0m[38;5;-190m[AndroidUiautomator2Driver@c5fa][0m Using device: R9JN70X3DWJ
+[38;5;152m[5e642080][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\User\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;152m[5e642080][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;152m[5e642080][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;152m[5e642080][0m[38;5;-190m[AndroidUiautomator2Driver@c5fa][0m Restoring hidden api policy to the device default configuration
+[38;5;152m[5e642080][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m533 ms - 840[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\TUF\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"R9JN70X3DWJ","appium:deviceName":"samsung SM-M115F (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"12","appium:property":"","appium:property_1":"","appium:property_2":"","appium:systemPort":50933,"appium:udid":"R9JN70X3DWJ","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\TUF\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"R9JN70X3DWJ","appium:deviceName":"samsung SM-M115F (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"12","appium:property":"","app...[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\User\.appium\node_modules\appium-uiautomator2-driver
+[38;5;161m[AppiumDriver@d0d7][0m Appium v2.13.1 creating new AndroidUiautomator2Driver (v3.9.7) session
+[38;5;161m[AppiumDriver@d0d7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;161m[AppiumDriver@d0d7][0m Appium's BaseDriver version is 9.13.1
+[38;5;161m[AppiumDriver@d0d7][0m AndroidUiautomator2Driver's BaseDriver version is 9.13.1
+[38;5;-121m[AndroidUiautomator2Driver@5559][0m The following provided capabilities were not recognized by this driver:
+[38;5;-121m[AndroidUiautomator2Driver@5559][0m   deviceId
+[38;5;-121m[AndroidUiautomator2Driver@5559][0m   property
+[38;5;-121m[AndroidUiautomator2Driver@5559][0m   property_1
+[38;5;-121m[AndroidUiautomator2Driver@5559][0m   property_2
+[38;5;216m[059a09e1][0m[38;5;-121m[AndroidUiautomator2Driver@5559][0m Session created with session id: 059a09e1-76ec-45d5-869e-82d1a1baf6ff
+[38;5;216m[059a09e1][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\User\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;216m[059a09e1][0m[38;5;-121m[AndroidUiautomator2Driver@5559][0m Retrieving device list
+[38;5;216m[059a09e1][0m[38;5;-121m[AndroidUiautomator2Driver@5559][0m Using device: R9JN70X3DWJ
+[38;5;216m[059a09e1][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\User\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;216m[059a09e1][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;216m[059a09e1][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;216m[059a09e1][0m[38;5;-121m[AndroidUiautomator2Driver@5559][0m Restoring hidden api policy to the device default configuration
+[38;5;216m[059a09e1][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m603 ms - 840[39m [90m[39m
