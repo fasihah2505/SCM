@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
 TestSuite,,,,17-01-2025 10:38:10,17-01-2025 10:39:27,1m - 17.107s,PASSED
 ,,,,,,,
@@ -28,3 +29,35 @@ Test Cases/7. About/7.2 Services/7.2.4 Gift Wrapping/New Test Case,,,,17-01-2025
 Test Cases/7. About/7.2 Services/7.2.5 Lost n Found/lostnfound,,,,17-01-2025 10:39:23,17-01-2025 10:39:27,3.456s,PASSED
 "tap(findTestObject(""Object Repository/android.widget.TextView - Lost  Found""), 0)",,,,17-01-2025 10:39:23,17-01-2025 10:39:26,2.788s,PASSED
 "tap(findTestObject(""Object Repository/android.widget.ImageView (21)""), 0)",,,,17-01-2025 10:39:26,17-01-2025 10:39:27,0.578s,PASSED
+=======
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite,,,,17-01-2025 10:38:10,17-01-2025 10:39:27,1m - 17.107s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.1 ATM/7.2.1 ATM,,,,17-01-2025 10:38:10,17-01-2025 10:39:11,1m - 1.300s,PASSED
+projectDir = getProjectDir(),,,,17-01-2025 10:38:10,17-01-2025 10:38:10,0.006s,PASSED
+"apkFilePath = projectDir + ""/Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk""",,,,17-01-2025 10:38:10,17-01-2025 10:38:10,0.008s,PASSED
+"startApplication(apkFilePath, true)",,,,17-01-2025 10:38:10,17-01-2025 10:38:47,36.917s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (22)""), 0)",,,,17-01-2025 10:38:47,17-01-2025 10:38:52,4.189s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (14)""), 0)",,,,17-01-2025 10:38:52,17-01-2025 10:38:52,0.399s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - About (1)""), 0)",,,,17-01-2025 10:38:52,17-01-2025 10:39:04,11.758s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Services""), 0)",,,,17-01-2025 10:39:04,17-01-2025 10:39:06,2.696s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ScrollView""), 0)",,,,17-01-2025 10:39:06,17-01-2025 10:39:09,2.173s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - ATM""), 0)",,,,17-01-2025 10:39:09,17-01-2025 10:39:09,0.751s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (16)""), 0)",,,,17-01-2025 10:39:09,17-01-2025 10:39:11,1.914s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.2 Bus/bus,,,,17-01-2025 10:39:11,17-01-2025 10:39:15,4.054s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Bus""), 0)",,,,17-01-2025 10:39:11,17-01-2025 10:39:14,2.112s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (17)""), 0)",,,,17-01-2025 10:39:14,17-01-2025 10:39:15,1.824s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.3 Car Park Help-Desk/car,,,,17-01-2025 10:39:15,17-01-2025 10:39:19,3.807s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Car Park Help-Desk""), 0)",,,,17-01-2025 10:39:15,17-01-2025 10:39:17,1.836s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (19)""), 0)",,,,17-01-2025 10:39:17,17-01-2025 10:39:19,1.868s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.4 Gift Wrapping/New Test Case,,,,17-01-2025 10:39:19,17-01-2025 10:39:23,4.164s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Gift Wrapping""), 0)",,,,17-01-2025 10:39:19,17-01-2025 10:39:22,3.041s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (21)""), 0)",,,,17-01-2025 10:39:22,17-01-2025 10:39:23,1.034s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.5 Lost n Found/lostnfound,,,,17-01-2025 10:39:23,17-01-2025 10:39:27,3.456s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Lost  Found""), 0)",,,,17-01-2025 10:39:23,17-01-2025 10:39:26,2.788s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (21)""), 0)",,,,17-01-2025 10:39:26,17-01-2025 10:39:27,0.578s,PASSED
+>>>>>>> branch 'main' of https://github.com/fasihah2505/test.git
