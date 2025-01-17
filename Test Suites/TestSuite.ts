@@ -46,4 +46,39 @@
       <testCaseId>Test Cases/7. About/7.2 Services/7.2.5 Lost n Found/lostnfound</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>90756660-4d66-49e7-a900-39f8faaf0a6d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/7. About/7.3 Amenities/7.3.1 Baby Strollers/Baby Stroller</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>716c9d42-6fa4-4877-88e8-9c550eb6187d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/7. About/7.3 Amenities/7.3.2 Handicapped Bathrooms/Handicapped Bathrooms</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0cb851c7-9c83-49fb-8e3d-82392a4d02e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/7. About/7.3 Amenities/7.3.3 Parents Rooms/Parents Room</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0cbbe01f-163d-46d5-ac56-3faf520f121c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/7. About/7.3 Amenities/7.3.4 Surau/Surau</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0b798283-5b72-423d-8810-6657670623b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/7. About/7.3 Amenities/7.3.5 Wheel Chairs/Wheel Chairs</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

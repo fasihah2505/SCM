@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite,,,,17-01-2025 12:09:19,17-01-2025 12:11:13,1m - 54.104s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.1 ATM/7.2.1 ATM,,,,17-01-2025 12:09:49,17-01-2025 12:10:33,43.199s,PASSED
+projectDir = getProjectDir(),,,,17-01-2025 12:09:49,17-01-2025 12:09:49,0.001s,PASSED
+"apkFilePath = projectDir + ""/Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk""",,,,17-01-2025 12:09:49,17-01-2025 12:09:49,0.000s,PASSED
+"startApplication(apkFilePath, true)",,,,17-01-2025 12:09:49,17-01-2025 12:10:09,19.502s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (22)""), 0)",,,,17-01-2025 12:10:09,17-01-2025 12:10:13,4.463s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (14)""), 0)",,,,17-01-2025 12:10:13,17-01-2025 12:10:17,4.001s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - About (1)""), 0)",,,,17-01-2025 12:10:17,17-01-2025 12:10:25,7.412s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Services""), 0)",,,,17-01-2025 12:10:25,17-01-2025 12:10:28,3.218s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ScrollView""), 0)",,,,17-01-2025 12:10:28,17-01-2025 12:10:30,2.075s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - ATM""), 0)",,,,17-01-2025 12:10:30,17-01-2025 12:10:31,0.662s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (16)""), 0)",,,,17-01-2025 12:10:31,17-01-2025 12:10:33,1.842s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.2 Bus/bus,,,,17-01-2025 12:10:33,17-01-2025 12:10:36,3.636s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Bus""), 0)",,,,17-01-2025 12:10:33,17-01-2025 12:10:35,1.872s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (17)""), 0)",,,,17-01-2025 12:10:35,17-01-2025 12:10:36,1.670s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.3 Car Park Help-Desk/car,,,,17-01-2025 12:10:36,17-01-2025 12:10:40,3.619s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Car Park Help-Desk""), 0)",,,,17-01-2025 12:10:36,17-01-2025 12:10:38,1.785s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (19)""), 0)",,,,17-01-2025 12:10:38,17-01-2025 12:10:40,1.756s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.4 Gift Wrapping/New Test Case,,,,17-01-2025 12:10:40,17-01-2025 12:10:43,3.438s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Gift Wrapping""), 0)",,,,17-01-2025 12:10:40,17-01-2025 12:10:42,1.753s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (21)""), 0)",,,,17-01-2025 12:10:42,17-01-2025 12:10:43,1.602s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.5 Lost n Found/lostnfound,,,,17-01-2025 12:10:43,17-01-2025 12:10:47,3.403s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Lost  Found""), 0)",,,,17-01-2025 12:10:43,17-01-2025 12:10:45,1.624s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (21)""), 0)",,,,17-01-2025 12:10:45,17-01-2025 12:10:47,1.691s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.1 Baby Strollers/Baby Stroller,,,,17-01-2025 12:10:50,17-01-2025 12:10:59,9.604s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (22)""), 0)",,,,17-01-2025 12:10:50,17-01-2025 12:10:50,0.548s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - About (4)""), 0)",,,,17-01-2025 12:10:50,17-01-2025 12:10:53,2.654s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Amenities""), 0)",,,,17-01-2025 12:10:53,17-01-2025 12:10:55,2.171s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Baby Strollers""), 0)",,,,17-01-2025 12:10:55,17-01-2025 12:10:57,2.262s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (23)""), 0)",,,,17-01-2025 12:10:57,17-01-2025 12:10:59,1.951s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.2 Handicapped Bathrooms/Handicapped Bathrooms,,,,17-01-2025 12:10:59,17-01-2025 12:11:03,3.453s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Handicapped Bathrooms""), 0)",,,,17-01-2025 12:10:59,17-01-2025 12:11:01,1.744s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (23)""), 0)",,,,17-01-2025 12:11:01,17-01-2025 12:11:03,1.620s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.3 Parents Rooms/Parents Room,,,,17-01-2025 12:11:03,17-01-2025 12:11:06,3.440s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Parents rooms""), 0)",,,,17-01-2025 12:11:03,17-01-2025 12:11:04,1.627s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (23)""), 0)",,,,17-01-2025 12:11:04,17-01-2025 12:11:06,1.735s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.4 Surau/Surau,,,,17-01-2025 12:11:06,17-01-2025 12:11:10,3.406s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Surau""), 0)",,,,17-01-2025 12:11:06,17-01-2025 12:11:08,1.546s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (24)""), 0)",,,,17-01-2025 12:11:08,17-01-2025 12:11:10,1.787s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.5 Wheel Chairs/Wheel Chairs,,,,17-01-2025 12:11:10,17-01-2025 12:11:13,3.388s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Wheel Chairs""), 0)",,,,17-01-2025 12:11:10,17-01-2025 12:11:11,1.674s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (23)""), 0)",,,,17-01-2025 12:11:11,17-01-2025 12:11:13,1.637s,PASSED
