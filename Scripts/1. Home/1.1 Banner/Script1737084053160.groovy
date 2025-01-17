@@ -17,13 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\User\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
+Mobile.startApplication('Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (7)'), 0)
+'Clcik Banner'
+Mobile.tap(findTestObject('Object Repository/SCM/Home_Object/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Directory (1)'), 0)
+'content banner'
+Mobile.tap(findTestObject('Object Repository/SCM/Home_Object/android.view.2ndPic'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (8)'), 0)
+'Close banner'
+Mobile.tap(findTestObject('Object Repository/SCM/Home_Object/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Home'), 0)
+Mobile.swipe(50, 0, -50, 0)
+
+Mobile.swipe(50, 0, -50, 0)
+
+Mobile.swipe(50, 0, -50, 0)
 
