@@ -19,22 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\User\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView'), 0)
+Mobile.setSliderValue(findTestObject('Object Repository/SCM/Home_Object/android.view.2ndPic'), 0, 0)
 
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (6)'), 0)
-
-Mobile.swipe(0, 0, 0, 0)
-
-Mobile.swipe(0, 0, 0, 0)
-
-Mobile.swipe(0, 0, 0, 0)
-
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView'), 0)
-
-Mobile.swipe(0, 0, 0, 0)
-
-'exit'
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (27)'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/Home_Object/android.widget.ImageView (4)'), 0)
 
 Mobile.closeApplication()
 
