@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\User\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
+Mobile.startApplication('C:\\Users\\User\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', false)
 
 Mobile.delay(10)
 
@@ -26,6 +26,27 @@ device_Height = Mobile.getDeviceHeight()
 
 'Get Device Width and Store in device_Width variable'
 device_Width = Mobile.getDeviceWidth()
+
+'Storing the startX,endX values by dividing device height by 2 Because Y coordinates are constant'
+int startY = device_Height / 2
+
+'Here endY and startY values are equal for vertical Swiping for that assigning startY value to endY'
+int endY = startY
+
+'Storing the startX value'
+int startX = device_Width * 0.30
+
+'Storing the endX value'
+int endX = device_Width * 0.70
+
+'Here Y constant for Swipe Vertical Left to Right'
+Mobile.swipe(startX, startY, endX, endY)
+
+'Here Y constant for Swipe Vertical Left to Right'
+Mobile.swipe(startX, startY, endX, endY)
+
+'Here Y constant for Swipe Vertical Left to Right'
+Mobile.swipe(startX, startY, endX, endY)
 
 Mobile.delay(3)
 
