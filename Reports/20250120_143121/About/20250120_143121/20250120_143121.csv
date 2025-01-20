@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+About,,,,20-01-2025 14:31:28,20-01-2025 14:32:44,1m - 15.530s,PASSED
+,,,,,,,
+Test Cases/7. About/7.1 Contact/7.1.1 Main Page,,,,20-01-2025 14:31:28,20-01-2025 14:31:55,26.667s,PASSED
+"startApplication(""Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk"", false)",,,,20-01-2025 14:31:29,20-01-2025 14:31:47,18.921s,PASSED
+delay(1),,,,20-01-2025 14:31:47,20-01-2025 14:31:49,1.037s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.ImageView""), 0)",,"open side nav
+",,20-01-2025 14:31:49,20-01-2025 14:31:50,1.752s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - About""), 0)",,,,20-01-2025 14:31:50,20-01-2025 14:31:52,2.042s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Contact""), 0)",,,,20-01-2025 14:31:52,20-01-2025 14:31:55,2.632s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.1 ATM,,,,20-01-2025 14:31:55,20-01-2025 14:32:02,6.684s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Services""), 0)",,"nav bar bottom
+",,20-01-2025 14:31:55,20-01-2025 14:31:57,1.898s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - ATM""), 0)",,"atm
+",,20-01-2025 14:31:57,20-01-2025 14:32:00,2.934s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.ImageView (2)""), 0)",,back,,20-01-2025 14:32:00,20-01-2025 14:32:02,1.800s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.2 Bus,,,,20-01-2025 14:32:02,20-01-2025 14:32:05,3.130s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Bus""), 0)",,bus,,20-01-2025 14:32:02,20-01-2025 14:32:03,1.344s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.ImageView (2)""), 0)",,,,20-01-2025 14:32:03,20-01-2025 14:32:05,1.732s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.3 Car Park Help Desk,,,,20-01-2025 14:32:05,20-01-2025 14:32:08,3.490s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Car Park Help-Desk""), 0)",,,,20-01-2025 14:32:05,20-01-2025 14:32:07,1.733s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.ImageView (3)""), 0)",,,,20-01-2025 14:32:07,20-01-2025 14:32:08,1.698s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.4 Gift Wrapping,,,,20-01-2025 14:32:08,20-01-2025 14:32:12,3.654s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Gift Wrapping""), 0)",,,,20-01-2025 14:32:08,20-01-2025 14:32:10,1.913s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.ImageView (3)""), 0)",,,,20-01-2025 14:32:10,20-01-2025 14:32:12,1.679s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.5 Lost and Found,,,,20-01-2025 14:32:12,20-01-2025 14:32:16,3.962s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Lost  Found""), 0)",,,,20-01-2025 14:32:12,20-01-2025 14:32:14,2.086s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.ImageView (3)""), 0)",,,,20-01-2025 14:32:14,20-01-2025 14:32:16,1.821s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.1 Baby Stroller,,,,20-01-2025 14:32:16,20-01-2025 14:32:22,5.804s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Amenities""), 0)",,,,20-01-2025 14:32:16,20-01-2025 14:32:18,1.704s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Baby Strollers""), 0)",,,,20-01-2025 14:32:18,20-01-2025 14:32:20,2.338s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.ImageView (3)""), 0)",,,,20-01-2025 14:32:20,20-01-2025 14:32:22,1.703s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.2 Handicapped Bathrooms,,,,20-01-2025 14:32:22,20-01-2025 14:32:26,3.861s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Handicapped Bathrooms""), 0)",,,,20-01-2025 14:32:22,20-01-2025 14:32:24,1.840s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.ImageView (3)""), 0)",,,,20-01-2025 14:32:24,20-01-2025 14:32:26,1.966s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.3 Parents Room,,,,20-01-2025 14:32:26,20-01-2025 14:32:29,3.738s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Parents rooms""), 0)",,,,20-01-2025 14:32:26,20-01-2025 14:32:27,1.811s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (23)""), 0)",,,,20-01-2025 14:32:27,20-01-2025 14:32:29,1.861s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.4 Surau,,,,20-01-2025 14:32:29,20-01-2025 14:32:33,3.605s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Surau""), 0)",,,,20-01-2025 14:32:29,20-01-2025 14:32:31,1.883s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.ImageView (4)""), 0)",,,,20-01-2025 14:32:31,20-01-2025 14:32:33,1.670s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.5 Wheel Chairs,,,,20-01-2025 14:32:33,20-01-2025 14:32:37,3.622s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Wheel Chairs""), 0)",,,,20-01-2025 14:32:33,20-01-2025 14:32:35,1.943s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.ImageView (3)""), 0)",,,,20-01-2025 14:32:35,20-01-2025 14:32:37,1.622s,PASSED
+,,,,,,,
+Test Cases/7. About/7.4 Transport/7.4.1 Transport,,,,20-01-2025 14:32:37,20-01-2025 14:32:44,7.042s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Transport""), 0)",,,,20-01-2025 14:32:37,20-01-2025 14:32:39,2.778s,PASSED
+delay(1),,,,20-01-2025 14:32:39,20-01-2025 14:32:40,1.012s,PASSED
+device_Height = getDeviceHeight(),,Get Device Height and Store in device_height variable,,20-01-2025 14:32:40,20-01-2025 14:32:41,0.374s,PASSED
+device_Width = getDeviceWidth(),,Get Width Height and Store in device_Width variable,,20-01-2025 14:32:41,20-01-2025 14:32:41,0.344s,PASSED
+startX = device_Width / 2,,Storing the startX value by dividing device width by 2. Because x coordinates are constant for Vertical Swiping,,20-01-2025 14:32:41,20-01-2025 14:32:41,0.005s,PASSED
+endX = startX,,Here startX and endX values are equal for vertical Swiping for that assigning startX value to endX,,20-01-2025 14:32:41,20-01-2025 14:32:41,0.001s,PASSED
+startY = device_Height * 0.30,,Storing the startY value,,20-01-2025 14:32:41,20-01-2025 14:32:41,0.003s,PASSED
+endY = device_Height * 0.70,,Storing the endY value,,20-01-2025 14:32:41,20-01-2025 14:32:41,0.001s,PASSED
+"swipe(startX, endY, endX, startY)",,Swipe Vertical from top to bottom,,20-01-2025 14:32:41,20-01-2025 14:32:42,1.237s,PASSED
+"swipe(startX, endY, endX, startY)",,Swipe Vertical from top to bottom,,20-01-2025 14:32:42,20-01-2025 14:32:44,1.185s,PASSED

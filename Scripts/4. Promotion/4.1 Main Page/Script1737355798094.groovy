@@ -17,25 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\User\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
+Mobile.startApplication('Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', false)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(1)
 
-'open membersihp directly'
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/promotion/android.widget.ImageView (5)'), 0)
 
-'Clear View\r\n'
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/promotion/android.widget.TextView - Promotions (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/promotion/android.view.ViewGroup (4)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/promotion/android.view.ViewGroup (6)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView'), 0)
-
-'open side menu\r\n'
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView'), 0)
-
-'open via sidemenu'
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/promotion/android.widget.ImageView (6)'), 0)
 

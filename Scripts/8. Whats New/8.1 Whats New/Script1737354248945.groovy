@@ -17,7 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/SCM/about/android.widget.TextView - Transport'), 0)
+Mobile.startApplication('Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
+
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/SCM/whatsnew/android.widget.ImageView (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/whatsnew/android.widget.TextView - Whats New (1)'), 0)
 
 Mobile.delay(1)
 
@@ -42,9 +48,25 @@ int endY = device_Height * 0.70
 'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
-'Swipe Vertical from top to bottom'
 Mobile.swipe(startX, endY, endX, startY)
 
-'Swipe Vertical from top to bottom'
+Mobile.delay(2)
+
+Mobile.swipe(startX, endY, endX, startY)
+
+Mobile.delay(2)
+
+Mobile.swipe(startX, endY, endX, startY)
+
+Mobile.delay(2)
+
+Mobile.swipe(startX, endY, endX, startY)
+
+Mobile.delay(2)
+
+Mobile.swipe(startX, endY, endX, startY)
+
+Mobile.delay(2)
+
 Mobile.swipe(startX, endY, endX, startY)
 
