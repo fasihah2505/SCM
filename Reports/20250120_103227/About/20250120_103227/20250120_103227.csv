@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+About,,,,20-01-2025 10:32:33,20-01-2025 10:33:44,1m - 11.100s,FAILED
+,,,,,,,
+Test Cases/7. About/7.1 Contact/7.1.1 Main Page,,,,20-01-2025 10:32:34,20-01-2025 10:32:58,24.950s,PASSED
+"startApplication(""Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk"", false)",,,,20-01-2025 10:32:34,20-01-2025 10:32:52,18.586s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.ImageView""), 0)",,"open side nav
+",,20-01-2025 10:32:52,20-01-2025 10:32:54,1.992s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - About""), 0)",,,,20-01-2025 10:32:54,20-01-2025 10:32:56,2.071s,PASSED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Contact""), 0)",,,,20-01-2025 10:32:56,20-01-2025 10:32:58,2.069s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.1 ATM/7.2.1 ATM,,,,20-01-2025 10:32:58,20-01-2025 10:33:04,5.926s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Services""), 0)",,,,20-01-2025 10:32:59,20-01-2025 10:33:01,1.998s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ScrollView""), 0)",,,,20-01-2025 10:33:01,20-01-2025 10:33:02,1.588s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - ATM""), 0)",,,,20-01-2025 10:33:02,20-01-2025 10:33:03,0.811s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (16)""), 0)",,,,20-01-2025 10:33:03,20-01-2025 10:33:04,1.458s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.2 Bus/bus,,,,20-01-2025 10:33:04,20-01-2025 10:33:07,2.779s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Bus""), 0)",,,,20-01-2025 10:33:04,20-01-2025 10:33:06,1.277s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (17)""), 0)",,,,20-01-2025 10:33:06,20-01-2025 10:33:07,1.448s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.3 Car Park Help-Desk/car,,,,20-01-2025 10:33:07,20-01-2025 10:33:10,2.754s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Car Park Help-Desk""), 0)",,,,20-01-2025 10:33:07,20-01-2025 10:33:08,1.210s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (19)""), 0)",,,,20-01-2025 10:33:08,20-01-2025 10:33:10,1.488s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.4 Gift Wrapping/New Test Case,,,,20-01-2025 10:33:10,20-01-2025 10:33:13,2.734s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Gift Wrapping""), 0)",,,,20-01-2025 10:33:10,20-01-2025 10:33:11,1.230s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (21)""), 0)",,,,20-01-2025 10:33:11,20-01-2025 10:33:13,1.450s,PASSED
+,,,,,,,
+Test Cases/7. About/7.2 Services/7.2.5 Lost n Found/lostnfound,,,,20-01-2025 10:33:13,20-01-2025 10:33:15,2.774s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Lost  Found""), 0)",,,,20-01-2025 10:33:13,20-01-2025 10:33:14,1.246s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (21)""), 0)",,,,20-01-2025 10:33:14,20-01-2025 10:33:15,1.471s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.1 Baby Strollers/Baby Stroller,,,,20-01-2025 10:33:18,20-01-2025 10:33:22,3.950s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Amenities""), 0)",,,,20-01-2025 10:33:18,20-01-2025 10:33:18,0.512s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Baby Strollers""), 0)",,,,20-01-2025 10:33:18,20-01-2025 10:33:20,1.856s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (23)""), 0)",,,,20-01-2025 10:33:20,20-01-2025 10:33:22,1.572s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.2 Handicapped Bathrooms/Handicapped Bathrooms,,,,20-01-2025 10:33:22,20-01-2025 10:33:25,2.921s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Handicapped Bathrooms""), 0)",,,,20-01-2025 10:33:22,20-01-2025 10:33:23,1.342s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (23)""), 0)",,,,20-01-2025 10:33:23,20-01-2025 10:33:25,1.525s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.3 Parents Rooms/Parents Room,,,,20-01-2025 10:33:25,20-01-2025 10:33:28,2.803s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Parents rooms""), 0)",,,,20-01-2025 10:33:25,20-01-2025 10:33:26,1.226s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (23)""), 0)",,,,20-01-2025 10:33:26,20-01-2025 10:33:28,1.520s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.4 Surau/Surau,,,,20-01-2025 10:33:28,20-01-2025 10:33:31,3.155s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Surau""), 0)",,,,20-01-2025 10:33:28,20-01-2025 10:33:29,1.590s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (24)""), 0)",,,,20-01-2025 10:33:29,20-01-2025 10:33:31,1.517s,PASSED
+,,,,,,,
+Test Cases/7. About/7.3 Amenities/7.3.5 Wheel Chairs/Wheel Chairs,,,,20-01-2025 10:33:31,20-01-2025 10:33:34,3.042s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Wheel Chairs""), 0)",,,,20-01-2025 10:33:31,20-01-2025 10:33:32,1.549s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView (23)""), 0)",,,,20-01-2025 10:33:32,20-01-2025 10:33:34,1.441s,PASSED
+,,,,,,,
+Test Cases/7. About/7.4 Transport/7.4.1 Transport,,,,20-01-2025 10:33:42,20-01-2025 10:33:44,2.512s,FAILED
+"tap(findTestObject(""Object Repository/SCM/about/android.widget.TextView - Transport""), 0)",,,,20-01-2025 10:33:42,20-01-2025 10:33:43,0.784s,PASSED
+device_Height = getDeviceHeight(),,,,20-01-2025 10:33:43,20-01-2025 10:33:43,0.328s,PASSED
+device_Width = getDeviceWidth(),,,,20-01-2025 10:33:43,20-01-2025 10:33:43,0.323s,PASSED
+startX = device_Width / 2,,,,20-01-2025 10:33:43,20-01-2025 10:33:43,0.001s,PASSED
+endX = startX,,,,20-01-2025 10:33:43,20-01-2025 10:33:43,0.000s,PASSED
+startY = device_Height * 0.70,,,,20-01-2025 10:33:43,20-01-2025 10:33:43,0.000s,PASSED
+endY = device_Height * 0.30,,,,20-01-2025 10:33:43,20-01-2025 10:33:43,0.000s,PASSED
+isEndOfContent = false,,,,20-01-2025 10:33:43,20-01-2025 10:33:43,0.000s,PASSED
+"previousScreen = """"",,,,20-01-2025 10:33:43,20-01-2025 10:33:43,0.000s,PASSED
+"currentScreen = """"",,,,20-01-2025 10:33:43,20-01-2025 10:33:43,0.001s,PASSED
+while (!(isEndOfContent)),,,,20-01-2025 10:33:43,20-01-2025 10:33:44,1.064s,FAILED
