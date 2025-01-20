@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
@@ -7,3 +8,14 @@
    <recordOption>OTHER</recordOption>
    <testCaseGuid>51f8f6fa-9604-4063-881f-c28bf727de1b</testCaseGuid>
 </TestCaseEntity>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1.1 Banner</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>51f8f6fa-9604-4063-881f-c28bf727de1b</testCaseGuid>
+</TestCaseEntity>
+>>>>>>> branch 'main' of https://github.com/fasihah2505/test.git
