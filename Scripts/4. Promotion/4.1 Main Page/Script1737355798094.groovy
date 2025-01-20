@@ -17,34 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/SCM/about/android.widget.TextView - Transport'), 0)
+Mobile.startApplication('Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', false)
 
 Mobile.delay(1)
 
-'Get Device Height and Store in device_height variable'
-device_Height = Mobile.getDeviceHeight()
+Mobile.tap(findTestObject('Object Repository/SCM/promotion/android.widget.ImageView (5)'), 0)
 
-'Get Width Height and Store in device_Width variable'
-device_Width = Mobile.getDeviceWidth()
+Mobile.tap(findTestObject('Object Repository/SCM/promotion/android.widget.TextView - Promotions (1)'), 0)
 
-'Storing the startX value by dividing device width by 2. Because x coordinates are constant for Vertical Swiping'
-int startX = device_Width / 2
+Mobile.tap(findTestObject('Object Repository/SCM/promotion/android.view.ViewGroup (4)'), 0)
 
-'Here startX and endX values are equal for vertical Swiping for that assigning startX value to endX'
-int endX = startX
+Mobile.tap(findTestObject('Object Repository/SCM/promotion/android.view.ViewGroup (6)'), 0)
 
-'Storing the startY value'
-int startY = device_Height * 0.30
-
-'Storing the endY value'
-int endY = device_Height * 0.70
-
-'Swipe Vertical from top to bottom'
-Mobile.swipe(startX, endY, endX, startY)
-
-'Swipe Vertical from top to bottom'
-Mobile.swipe(startX, endY, endX, startY)
-
-'Swipe Vertical from top to bottom'
-Mobile.swipe(startX, endY, endX, startY)
+Mobile.tap(findTestObject('Object Repository/SCM/promotion/android.widget.ImageView (6)'), 0)
 
