@@ -17,15 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\User\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
+Mobile.startApplication('Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', false)
 
-'side menu'
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/login/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/login/android.widget.TextView - I Love SCM'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.setText(findTestObject('Object Repository/SCM/login/android.widget.EditText - XXXXXX'), '010101', 0)
 
-'finally tutup'
-Mobile.tap(findTestObject('null'), 0)
+Mobile.setText(findTestObject('Object Repository/SCM/login/android.widget.EditText - XX'), '10', 0)
+
+Mobile.setText(findTestObject('Object Repository/SCM/login/android.widget.EditText - XXXX'), '1111', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.setText(findTestObject('Object Repository/SCM/login/android.widget.EditText - Enter Password'), 'Test123', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/SCM/login/android.widget.TextView - Log In'), 0)
 

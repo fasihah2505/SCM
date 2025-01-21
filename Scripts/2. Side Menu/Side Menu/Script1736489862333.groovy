@@ -17,3 +17,53 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', false)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.TextView - Home'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.TextView - Directory'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.ImageView (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.TextView - Promotions'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.ImageView (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.TextView - I Love SCM'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.ImageView (3)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.TextView - Favourite'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.ImageView (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.TextView - About'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.ImageView (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.TextView - Whats New'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.ImageView (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/side menu/android.widget.TextView - Feedback'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+

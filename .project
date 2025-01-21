@@ -242,7 +242,6 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
 			<id>1737354374544</id>
 			<name></name>
 			<type>10</type>
@@ -253,8 +252,6 @@
 		</filter>
 		<filter>
 			<id>1737354374564</id>
-=======
-			<id>1737357307942</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -264,7 +261,6 @@
 		</filter>
 		<filter>
 			<id>1737357307955</id>
->>>>>>> branch 'main' of https://github.com/fasihah2505/SCM.git
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -301,6 +297,24 @@
 		</filter>
 		<filter>
 			<id>1737444778547</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1737445986038</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1737445986070</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

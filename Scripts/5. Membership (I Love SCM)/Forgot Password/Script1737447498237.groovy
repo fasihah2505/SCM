@@ -19,23 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', false)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+Mobile.hideKeyboard()
 
-'open membersihp directly'
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/forgot pass/android.widget.TextView - Forgot Password'), 0)
 
-'Clear View\r\n'
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.view.ViewGroup'), 0)
+Mobile.setText(findTestObject('Object Repository/SCM/forgot pass/android.widget.EditText - XXXXXX'), '010101', 0)
 
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView (1)'), 0)
+Mobile.setText(findTestObject('Object Repository/SCM/forgot pass/android.widget.EditText - XX'), '10', 0)
 
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView'), 0)
+Mobile.setText(findTestObject('Object Repository/SCM/forgot pass/android.widget.EditText - XXXX'), '1111', 0)
 
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView'), 0)
+Mobile.hideKeyboard()
 
-'open side menu\r\n'
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/forgot pass/android.widget.TextView - Submit'), 0)
 
-'open via sidemenu'
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/forgot pass/android.widget.Button - OK'), 0)
 
