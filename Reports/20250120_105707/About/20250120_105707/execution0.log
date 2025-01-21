@@ -2942,9 +2942,8 @@
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2025-01-20T07:15:43.021063600Z</date>
   <millis>1737357343021</millis>
@@ -4334,3 +4333,4 @@ org.eclipse.equinox.launcher.Main.run(Main.java:1467)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+</log>
