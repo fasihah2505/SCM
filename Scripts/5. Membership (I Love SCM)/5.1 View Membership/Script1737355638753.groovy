@@ -19,13 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\User\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
 
-'side menu'
-Mobile.tap(findTestObject('null'), 0)
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('null'), 0)
+'open membersihp directly'
+Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('null'), 0)
+'Clear View\r\n'
+Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.view.ViewGroup'), 0)
 
-'finally tutup'
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView'), 0)
+
+'open side menu\r\n'
+Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageView'), 0)
+
+'open via sidemenu'
+Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.view.ViewGroup'), 0)
 

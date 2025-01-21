@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="About" time="97.864" tests="12" failures="0" errors="0">
+   <testsuite name="About" tests="12" failures="0" errors="0" time="97.864" skipped="0" timestamp="20-01-2025T12:27:23" hostname="User - IRA-NB.lan" id="Test Suites/About">
+      <properties>
+         <property name="deviceName" value="samsung SM-M115F (Android 12)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\SCM\\Reports\\20250120_122713\\About\\20250120_122713"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\SCM\\Reports\\20250120_122713\\About\\20250120_122713\\appium.log, C:\\Users\\User\\git\\SCM\\Reports\\20250120_122713\\About\\20250120_122713\\appium_error.log, C:\\Users\\User\\git\\SCM\\Reports\\20250120_122713\\About\\20250120_122713\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - IRA-NB.lan"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.13.1&quot;}}}"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.13.1"/>
+         <property name="deviceModel" value="SM-M115F"/>
+         <property name="hostAddress" value="192.168.1.65"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="R9JN70X3DWJ"/>
+         <property name="deviceName" value="samsung SM-M115F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/7. About/7.1 Contact/7.1.1 Main Page" time="54.162" classname="Test Cases/7. About/7.1 Contact/7.1.1 Main Page" status="PASSED">
+         <system-out><![CDATA[20-01-2025T12:27:23 - [TEST_CASE][PASSED] - Test Cases/7. About/7.1 Contact/7.1.1 Main Page: Test Cases/7. About/7.1 Contact/7.1.1 Main Page
+
+20-01-2025T12:27:23 - [TEST_STEP][PASSED] - startApplication("Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk", false): Started application: 'C:\Users\User\git\SCM\Test Files\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk'
+
+20-01-2025T12:27:24 - [MESSAGE][INFO] - Starting application: 'C:\Users\User\git\SCM\Test Files\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk'
+
+20-01-2025T12:27:24 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+20-01-2025T12:27:34 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+20-01-2025T12:27:34 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\User\.appium
+
+20-01-2025T12:27:34 - [MESSAGE][INFO] - appium outlog: C:\Users\User\git\SCM\Reports\20250120_122713\About\20250120_122713\appium.log
+
+20-01-2025T12:27:34 - [MESSAGE][INFO] - appium errlog: C:\Users\User\git\SCM\Reports\20250120_122713\About\20250120_122713\appium_error.log
+
+20-01-2025T12:27:40 - [MESSAGE][INFO] - Appium server started on port 64,057
+
+20-01-2025T12:27:54 - [MESSAGE][PASSED] - Started application: 'C:\Users\User\git\SCM\Test Files\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk'
+
+20-01-2025T12:27:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-01-2025T12:27:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-01-2025T12:27:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.ImageView"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.ImageView'
+
+20-01-2025T12:27:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.ImageView'
+
+20-01-2025T12:28:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - About"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - About'
+
+20-01-2025T12:28:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - About'
+
+20-01-2025T12:28:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - Contact"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Contact'
+
+20-01-2025T12:28:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Contact']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7. About/7.2 Services/7.2.1 ATM" time="5.885" classname="Test Cases/7. About/7.2 Services/7.2.1 ATM" status="PASSED">
+         <system-out><![CDATA[20-01-2025T12:28:17 - [TEST_CASE][PASSED] - Test Cases/7. About/7.2 Services/7.2.1 ATM: Test Cases/7. About/7.2 Services/7.2.1 ATM
+
+20-01-2025T12:28:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - Services"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Services'
+
+20-01-2025T12:28:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Services'
+
+20-01-2025T12:28:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - ATM"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - ATM'
+
+20-01-2025T12:28:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - ATM'
+
+20-01-2025T12:28:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.ImageView (2)"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (2)'
+
+20-01-2025T12:28:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (2)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7. About/7.2 Services/7.2.2 Bus" time="3.516" classname="Test Cases/7. About/7.2 Services/7.2.2 Bus" status="PASSED">
+         <system-out><![CDATA[20-01-2025T12:28:23 - [TEST_CASE][PASSED] - Test Cases/7. About/7.2 Services/7.2.2 Bus: Test Cases/7. About/7.2 Services/7.2.2 Bus
+
+20-01-2025T12:28:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - Bus"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Bus'
+
+20-01-2025T12:28:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Bus'
+
+20-01-2025T12:28:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.ImageView (2)"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (2)'
+
+20-01-2025T12:28:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (2)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7. About/7.2 Services/7.2.3 Car Park Help Desk" time="3.534" classname="Test Cases/7. About/7.2 Services/7.2.3 Car Park Help Desk" status="PASSED">
+         <system-out><![CDATA[20-01-2025T12:28:27 - [TEST_CASE][PASSED] - Test Cases/7. About/7.2 Services/7.2.3 Car Park Help Desk: Test Cases/7. About/7.2 Services/7.2.3 Car Park Help Desk
+
+20-01-2025T12:28:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - Car Park Help-Desk"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Car Park Help-Desk'
+
+20-01-2025T12:28:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Car Park Help-Desk'
+
+20-01-2025T12:28:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.ImageView (3)"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (3)'
+
+20-01-2025T12:28:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (3)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7. About/7.2 Services/7.2.4 Gift Wrapping" time="3.172" classname="Test Cases/7. About/7.2 Services/7.2.4 Gift Wrapping" status="PASSED">
+         <system-out><![CDATA[20-01-2025T12:28:30 - [TEST_CASE][PASSED] - Test Cases/7. About/7.2 Services/7.2.4 Gift Wrapping: Test Cases/7. About/7.2 Services/7.2.4 Gift Wrapping
+
+20-01-2025T12:28:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - Gift Wrapping"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Gift Wrapping'
+
+20-01-2025T12:28:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Gift Wrapping'
+
+20-01-2025T12:28:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.ImageView (3)"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (3)'
+
+20-01-2025T12:28:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (3)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7. About/7.2 Services/7.2.5 Lost and Found" time="3.157" classname="Test Cases/7. About/7.2 Services/7.2.5 Lost and Found" status="PASSED">
+         <system-out><![CDATA[20-01-2025T12:28:33 - [TEST_CASE][PASSED] - Test Cases/7. About/7.2 Services/7.2.5 Lost and Found: Test Cases/7. About/7.2 Services/7.2.5 Lost and Found
+
+20-01-2025T12:28:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - Lost  Found"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Lost  Found'
+
+20-01-2025T12:28:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Lost  Found'
+
+20-01-2025T12:28:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.ImageView (3)"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (3)'
+
+20-01-2025T12:28:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (3)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7. About/7.3 Amenities/7.3.1 Baby Stroller" time="5.197" classname="Test Cases/7. About/7.3 Amenities/7.3.1 Baby Stroller" status="PASSED">
+         <system-out><![CDATA[20-01-2025T12:28:37 - [TEST_CASE][PASSED] - Test Cases/7. About/7.3 Amenities/7.3.1 Baby Stroller: Test Cases/7. About/7.3 Amenities/7.3.1 Baby Stroller
+
+20-01-2025T12:28:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - Amenities"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Amenities'
+
+20-01-2025T12:28:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Amenities'
+
+20-01-2025T12:28:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - Baby Strollers"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Baby Strollers'
+
+20-01-2025T12:28:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Baby Strollers'
+
+20-01-2025T12:28:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.ImageView (3)"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (3)'
+
+20-01-2025T12:28:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (3)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7. About/7.3 Amenities/7.3.2 Handicapped Bathrooms" time="3.285" classname="Test Cases/7. About/7.3 Amenities/7.3.2 Handicapped Bathrooms" status="PASSED">
+         <system-out><![CDATA[20-01-2025T12:28:42 - [TEST_CASE][PASSED] - Test Cases/7. About/7.3 Amenities/7.3.2 Handicapped Bathrooms: Test Cases/7. About/7.3 Amenities/7.3.2 Handicapped Bathrooms
+
+20-01-2025T12:28:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - Handicapped Bathrooms"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Handicapped Bathrooms'
+
+20-01-2025T12:28:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Handicapped Bathrooms'
+
+20-01-2025T12:28:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.ImageView (3)"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (3)'
+
+20-01-2025T12:28:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (3)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7. About/7.3 Amenities/7.3.3 Parents Room" time="3.44" classname="Test Cases/7. About/7.3 Amenities/7.3.3 Parents Room" status="PASSED">
+         <system-out><![CDATA[20-01-2025T12:28:45 - [TEST_CASE][PASSED] - Test Cases/7. About/7.3 Amenities/7.3.3 Parents Room: Test Cases/7. About/7.3 Amenities/7.3.3 Parents Room
+
+20-01-2025T12:28:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Parents rooms"), 0): Tapped on element 'Object Repository/android.widget.TextView - Parents rooms'
+
+20-01-2025T12:28:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Parents rooms'
+
+20-01-2025T12:28:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.ImageView (23)"), 0): Tapped on element 'Object Repository/android.widget.ImageView (23)'
+
+20-01-2025T12:28:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView (23)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7. About/7.3 Amenities/7.3.4 Surau" time="3.251" classname="Test Cases/7. About/7.3 Amenities/7.3.4 Surau" status="PASSED">
+         <system-out><![CDATA[20-01-2025T12:28:48 - [TEST_CASE][PASSED] - Test Cases/7. About/7.3 Amenities/7.3.4 Surau: Test Cases/7. About/7.3 Amenities/7.3.4 Surau
+
+20-01-2025T12:28:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - Surau"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Surau'
+
+20-01-2025T12:28:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Surau'
+
+20-01-2025T12:28:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.ImageView (4)"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (4)'
+
+20-01-2025T12:28:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (4)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7. About/7.3 Amenities/7.3.5 Wheel Chairs" time="3.664" classname="Test Cases/7. About/7.3 Amenities/7.3.5 Wheel Chairs" status="PASSED">
+         <system-out><![CDATA[20-01-2025T12:28:52 - [TEST_CASE][PASSED] - Test Cases/7. About/7.3 Amenities/7.3.5 Wheel Chairs: Test Cases/7. About/7.3 Amenities/7.3.5 Wheel Chairs
+
+20-01-2025T12:28:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - Wheel Chairs"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Wheel Chairs'
+
+20-01-2025T12:28:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Wheel Chairs'
+
+20-01-2025T12:28:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.ImageView (3)"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (3)'
+
+20-01-2025T12:28:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.ImageView (3)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/7. About/7.4 Transport/7.4.1 Transport" time="5.129" classname="Test Cases/7. About/7.4 Transport/7.4.1 Transport" status="PASSED">
+         <system-out><![CDATA[20-01-2025T12:28:55 - [TEST_CASE][PASSED] - Test Cases/7. About/7.4 Transport/7.4.1 Transport: Test Cases/7. About/7.4 Transport/7.4.1 Transport
+
+20-01-2025T12:28:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SCM/about/android.widget.TextView - Transport"), 0): Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Transport'
+
+20-01-2025T12:28:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '40'
+
+20-01-2025T12:28:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM/about/android.widget.TextView - Transport'
+
+20-01-2025T12:28:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+20-01-2025T12:28:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+20-01-2025T12:28:58 - [TEST_STEP][PASSED] - device_Height = getDeviceHeight(): Current device physical height is 1560
+
+20-01-2025T12:28:59 - [MESSAGE][PASSED] - Current device physical height is 1560
+
+20-01-2025T12:28:59 - [TEST_STEP][PASSED] - device_Width = getDeviceWidth(): Current device physical width is 720
+
+20-01-2025T12:28:59 - [MESSAGE][PASSED] - Current device physical width is 720
+
+20-01-2025T12:28:59 - [TEST_STEP][PASSED] - startX = device_Width / 2: null
+
+20-01-2025T12:28:59 - [TEST_STEP][PASSED] - endX = startX: null
+
+20-01-2025T12:28:59 - [TEST_STEP][PASSED] - startY = device_Height * 0.30: null
+
+20-01-2025T12:28:59 - [TEST_STEP][PASSED] - endY = device_Height * 0.70: null
+
+20-01-2025T12:28:59 - [TEST_STEP][PASSED] - swipe(startX, endY, endX, startY): Swiped from 360,1,092 to 360,468
+
+20-01-2025T12:29:01 - [MESSAGE][PASSED] - Swiped from 360,1,092 to 360,468]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-01-2025T12:27:23 - [TEST_SUITE][PASSED] - About: Test Cases/7. About/7.4 Transport/7.4.1 Transport]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
