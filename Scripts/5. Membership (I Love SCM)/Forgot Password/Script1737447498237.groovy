@@ -19,11 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', false)
 
-Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+Mobile.hideKeyboard()
 
-'Open member\r\n'
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.widget.ImageSCM'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/forgot pass/android.widget.TextView - Forgot Password'), 0)
 
-'Clear VIew'
-Mobile.tap(findTestObject('Object Repository/SCM/Membership/android.view.ViewGroup-SCM'), 0)
+Mobile.setText(findTestObject('Object Repository/SCM/forgot pass/android.widget.EditText - XXXXXX'), '010101', 0)
+
+Mobile.setText(findTestObject('Object Repository/SCM/forgot pass/android.widget.EditText - XX'), '10', 0)
+
+Mobile.setText(findTestObject('Object Repository/SCM/forgot pass/android.widget.EditText - XXXX'), '1111', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/SCM/forgot pass/android.widget.TextView - Submit'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/forgot pass/android.widget.Button - OK'), 0)
 

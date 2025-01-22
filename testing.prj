@@ -6,12 +6,12 @@
    <UUID>4d6c289f-7759-4247-a86b-cdda7203c466</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>10.0.1</createdVersion>
-   <freeLicense>true</freeLicense>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>10.0.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\User\git\SCM\testing.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\TUF\git\test\testing.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

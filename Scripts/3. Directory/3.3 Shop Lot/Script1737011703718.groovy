@@ -17,19 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\TUF\\Downloads\\Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', true)
+Mobile.startApplication('Test Files/Setia_City_Mall_Version_5_13_11_(Version_Code_162).apk', false)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (25)'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/directory/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (4)'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/directory/android.widget.TextView - Directory'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (25)'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/directory/android.widget.TextView - Beauty  Skin Care'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (26)'), 0)
+Mobile.setText(findTestObject('Object Repository/SCM/directory/android.widget.EditText - Enter Shop Name'), 'b', 0)
 
-Mobile.tap(findTestObject('Object Repository/android.view.ViewGroup (5)'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/directory/android.widget.TextView - UG-42'), 0)
 
-Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (26)'), 0)
+Mobile.tap(findTestObject('Object Repository/SCM/directory/android.widget.TextView - Directions'), 0)
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Object Repository/SCM/directory/android.widget.TextView - View Map'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/directory/android.widget.ImageView (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/directory/android.widget.TextView - Promotions'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/directory/android.widget.Button - OK'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/directory/android.widget.TextView - Directions'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/directory/android.widget.TextView - Take me there'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/directory/android.widget.Button - OK'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SCM/directory/android.widget.ImageView (3)'), 0)
 
